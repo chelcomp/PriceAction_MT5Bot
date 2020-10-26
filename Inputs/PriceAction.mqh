@@ -47,8 +47,8 @@ input group "Entry Criteria"
 input enum_OrderSendType orderSendType = oMarket; // Position Volume ( Quantity of Order or Contracts )
 
 
-input double limitOrderSpread = 5.0; // Limit order spread execution
-input int limitOrderExecutionSeconds = 60; // Limit order execution ( Seconds )
+input ulong input_LimitOrderSpread = 5.0; // Limit order spread execution
+input int input_LimitOrderExecutionSeconds = 60; // Limit order execution ( Seconds )
 /*enum enum_LimitOrderExpirationAction
   {
    MarketExecution = 0, // Market Execution

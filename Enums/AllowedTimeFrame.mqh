@@ -1,13 +1,13 @@
 enum enum_AllowedTimeFrame   // Time Frame
   {
-   tfCurrent = 0,     // [0] Current
+   tfCurrent = 0,      // [0] Current
   
-   tfOne = 1,         // [1]  1 Minute
-   tfTwo = 5,         // [2]  5 Minute
-   tfFive = 10,       // [3] 10 Minute
-   tfFifteem = 15,    // [4] 15 Minute
+   tfOne = 1,          // [1]  1 Minute
+   tfTwo = 5,          // [2]  5 Minute
+   tfFive = 10,        // [3] 10 Minute
+   tfFifteem = 15,     // [4] 15 Minute
    tfThirty = 30,      // [5] 30 Minute
-   tfsixty = 60,      // [6] 60 Minute
+   tfsixty = 60,       // [6] 60 Minute
     
   };
 
