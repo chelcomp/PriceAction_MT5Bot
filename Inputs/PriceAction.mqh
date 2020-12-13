@@ -14,6 +14,13 @@
 #include "../Enums/TimeInterval.mqh"
 #include "../Enums/StopAfterXTrades.mqh"
 
+
+sinput string Comment1 = "NOT PRODUCTION ENABLED"; // PriceAction Bot - Only for study ( Demo Account ) on B3 and MBF
+sinput string Comment2 = "This bot was created based on options available on Price Action bot, but there is no guarantee of equivalency."; // Disclaimer: No relation with Smarttbot.com.br
+sinput string Comment3 = "michelpurper@gmail.com"; // Developper Contact
+sinput string Comment4 = "FREE FOR USE"; // This bot can't be sold
+input  string BotName  = ""; // Bot Name
+
 //+------------------------------------------------------------------+
 //|  Graphic input section                                           |
 //+------------------------------------------------------------------+
